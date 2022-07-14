@@ -1,0 +1,42 @@
+.login-form {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   justify-content: center;
+}
+.login_heard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.login_heard img {
+    width: auto;
+}
+.login_input {
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 8px;
+    max-width: 300px;
+    padding: 5px;
+    width: 100%;
+}
+.login_button {
+    background-color: rgb(15, 73, 197);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 5px;
+    width: 100%;
+}
+.login_button:disabled {
+    background-color: rgb(136, 135, 135);
+    color: #333;
+    cursor: auto;
+}
