@@ -4,15 +4,20 @@ const form = document.querySelector('.login-form')
 /*
 const validateInput = ({target}) = 
 {
-    if (target.value.length > 2)
-        {button.removeAttribute('disabled');}
-    else{button.setAttribute('disabled', '');}
+if (target.value.length > 2)
+   {button.removeAttribute('disabled');
+	return,
+   }
+    button.setAttribute('disabled', '');
 }
-input.addEventListener('input', validateInput);
-*/ 
-const handleSubmit = (event) =
+
+const handleSubmit = (Event) = 
 {
-event.preventDefault();
-console.log('logando...');
+Event.preventDefault();
+localStorage.setItem('player', input.value);
+window.location = 'pages/game.html';
 }
-form.addEventListener('submit', handleSubmit);
+
+input.addEventListener('input', validareInput);
+form.addEventListener('suubmit', handleSubmit);
+*/
