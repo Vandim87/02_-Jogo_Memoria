@@ -6,6 +6,7 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 
@@ -13,5 +14,26 @@
 {
     aspect-ratio: 3/4;
     width: 100%;
-    background-color: #333
+    background-color: #333;
+    border-radius: 4px;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+}
+.face 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.front 
+{
+    background-color: rgb(235, 19, 19);
+}
+.back 
+{
+    background-image: url(../imagens/images.jpg);
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
 }
