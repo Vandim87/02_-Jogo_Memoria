@@ -5,7 +5,7 @@ const form = document.querySelector('.login-form')
 const validateInput = ({target}) => 
 {
 if (target.value.length > 2)
-   {button.removeAttribute('disabled');}
+   {button.removeAttribute('disabled')}   
 else
    {button.setAttribute('disabled', '');} 
 }
