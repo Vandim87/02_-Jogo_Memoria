@@ -7,8 +7,6 @@
     max-width: 800px;
     margin: 10px auto;
 }
-
-
 .card
 {
     aspect-ratio: 3/4;
@@ -32,16 +30,19 @@
 }
 .front 
 {
-    background-image: url(../imagens/carta1.jpg);
     transform: rotateY(180deg);
 }
 .back 
 {
     background-image: url(../imagens/images.jpg);
-    backface-visibility: visible;
+    -webkit-backface-visibility: hidden;
 }
-.card:hover 
+.reveal-card
 {
     transform: rotateY(180deg);
-    
+}
+.disabled-card
+{
+    filter: saturate(0);
+    opacity: 0.5;
 }
