@@ -31,7 +31,7 @@ const checkEndGame = () =>
     {alert('Parabéns, voçê ganhou!!!')}
 }
 
-const checkCards () => 
+const checkCards = () => 
 {
     const firstcharacter = firstCard.getAttribute('data-character');
     const secondcharacter = secondCard.getAttribute('data-character');
