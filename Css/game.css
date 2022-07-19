@@ -1,3 +1,6 @@
+body {
+background-image: url("../imagens/fundo.jpg");
+} 
 .grid 
 {
     display: grid;
