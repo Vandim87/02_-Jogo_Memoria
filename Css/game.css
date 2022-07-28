@@ -5,10 +5,10 @@ background-image: url("../imagens/fundo.jpg");
 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
+    gap: 16px;
     width: 100%;
-    max-width: 800px;
-    margin: 10px auto;
+    max-width: 810px;
+    margin: 11px auto;
 }
 .card
 {
