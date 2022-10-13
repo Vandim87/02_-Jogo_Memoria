@@ -49,3 +49,8 @@ background: rgb(245, 243, 243);
     filter: saturate(0);
     opacity: 0.5;
 }
+#timer
+{
+    color: blue;
+    font-size: 2em;
+}
