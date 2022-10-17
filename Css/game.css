@@ -1,7 +1,4 @@
-body {
-background: rgb(245, 243, 243);
-} 
-.grid 
+ .grid 
 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

@@ -126,9 +126,12 @@ function startTimer(duration, display) {
     }, 1000);
 
 }
+
+//inicio do script para criação do cronometro
 window.onload = function(){
     var duration = 60 * 4;
     var display = document.querySelector("#timer");
-
+    
     startTimer(duration, display);
-}
+} 
+//fim do script para criação do cronometro
