@@ -10,15 +10,12 @@ const machine = [
 'onibus',
 'plataforma',
 'torre',
-'trator',
-];
+'trator',];
 
-const createElement = (tag, className) => 
-{
-const element = document.createElement(tag);
-element.className = className
-return element;
-}
+const createElement = (tag, className) => {
+    const element = document.createElement(tag);
+    element.className = className
+    return element;}
 
 let firstCard = '';
 let secondCard = '';
